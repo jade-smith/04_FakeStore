@@ -1,0 +1,25 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.navbar{  /*Come back and make sure that it spans across the entire top of the screen */
+  top: 0; 
+  width: 100%;
+}
+
+#display{
+  text-align: center;
+  margin-top: auto;
+}
+
+footer{
+  align-items: center;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+}
+
